@@ -1,9 +1,9 @@
 Based on a SOP8 MCU (AVR ATtiny13A), decode NEC format IR remote control command. The MCU will output a LOW pluse while reconginized a command from IR remote command. 
 
 
-/* ========================================================================
+
                 四通道学习型红外遥控接收器（NEC格式）
-   ========================================================================
+
                          _____   _____
             Reset  PB5 -|1    \_/    8|- VCC
           Key3 IO  PB3 -|2           7|- PB2   Key2 IO
